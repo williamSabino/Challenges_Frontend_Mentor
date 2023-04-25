@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: lightblue;
+}
+
+.counteiner{
+    padding: 20px;
+    width: 60vw;
+    height: 70vh;
+    background: white;
+    border-radius: 20px 20px 150px 20px;
+}
+
+.counteiner input{
+    display: block;
+    height: 40px;
+    width: 80px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.counteiner form {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+hr{
+    margin-top: 30px;
+}
+
+.counteiner h1{
+    font-size: 90px;
+    margin-left: 50px;
+}
+
+.counteiner strong {
+    color: blueviolet;
+}
+
+.counteiner button[type = "submit"]{
+    width: 80px;
+    height: 80px;
+    background: blueviolet;
+    border-radius: 100%;
+    border: 0;
+    position: relative;
+    top: 70px;
+    left: 50px;
+} 
+
+
+
