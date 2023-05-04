@@ -13,7 +13,7 @@
 <body>
 
 <div class="counteiner">
- <form action="" method="post">
+ <form action="" method="post" id="formularioCalculadora">
   <p><label for="day">DAY</label>
     <input type="number" name="day" id="dayinput" placeholder="DD"></p>
 
@@ -23,16 +23,19 @@
 <p> <label for="year">YEAR</label>
   <input type="number" name="year" id="yearinput" placeholder="YYYY"></p>
 
- <button type="submit">Arrow</button>
+ <p><button type="submit">Arrow</button></p>
  </form>
 
  <hr>
 
-   <h1><strong>--</strong>Years</h1>
-   <h1><strong>--</strong> months</h1>
-   <h1><strong>--</strong> days</h1>
+  <div class="box">
+    <h1><strong>--</strong> Years</h1>
+    <h1><strong>--</strong> months</h1>
+    <h1><strong>--</strong> days</h1>
+  </div>
 
 </div>
   
+<script src="JS/funcoes.js"></script>
 </body>
 </html>
